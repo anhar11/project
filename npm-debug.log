@@ -1,0 +1,40 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'app.js' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 silly cache add args [ 'app.js', null ]
+6 verbose cache add spec app.js
+7 silly cache add parsed spec { raw: 'app.js',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: 'app.js',
+7 silly cache add   spec: 'c:\\anharWeb\\app.js',
+7 silly cache add   type: 'local' }
+8 silly addLocalTarball shasum (computed) 6a40aab1d606141ea4b1581b6e87c1cb9801dc98
+9 verbose addTmpTarball c:\anharWeb\app.js not in flight; adding
+10 verbose addTmpTarball validating metadata from c:\anharWeb\app.js
+11 verbose tar unpack c:\anharWeb\app.js
+12 verbose tar unpacking to C:\Users\User\AppData\Local\Temp\npm-4600-f3a6d666\unpack-39cc8e719ff7
+13 silly gentlyRm C:\Users\User\AppData\Local\Temp\npm-4600-f3a6d666\unpack-39cc8e719ff7 is being purged
+14 verbose gentlyRm don't care about contents; nuking C:\Users\User\AppData\Local\Temp\npm-4600-f3a6d666\unpack-39cc8e719ff7
+15 silly gunzTarPerm modes [ '777', '666' ]
+16 error not a package c:\anharWeb\app.js
+17 error addLocal Could not install c:\anharWeb\app.js
+18 verbose stack Error: ENOENT, open 'C:\Users\User\AppData\Local\Temp\npm-4600-f3a6d666\unpack-39cc8e719ff7\package.json'
+18 verbose stack     at Error (native)
+19 verbose cwd c:\anharWeb
+20 error Windows_NT 6.3.9600
+21 error argv "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "app.js"
+22 error node v0.12.2
+23 error npm  v2.7.4
+24 error path C:\Users\User\AppData\Local\Temp\npm-4600-f3a6d666\unpack-39cc8e719ff7\package.json
+25 error code ENOENT
+26 error errno -4058
+27 error enoent ENOENT, open 'C:\Users\User\AppData\Local\Temp\npm-4600-f3a6d666\unpack-39cc8e719ff7\package.json'
+27 error enoent This is most likely not a problem with npm itself
+27 error enoent and is related to npm not being able to find a file.
+28 verbose exit [ -4058, true ]
